@@ -1,0 +1,660 @@
+* {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+header {
+    max-width: 1920px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 1920px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    max-width: 1920px;
+    align-items: center;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared Element  */
+.bg-color {
+    background-color: #ff880133;
+    max-width: 100%;
+}
+
+.button {
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .navbar-container?/ */
+.navbar-container {
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-container li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* .navbar-container done */
+
+
+.brand-title-1 {
+    padding: 0px 400px;
+}
+
+.brand-title {
+    color: #131313;
+    font-weight: bold;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+
+.brand-description {
+    color: #727272;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 280px;
+    padding-bottom: 30px;
+}
+
+.new-brand {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.brand-image img {
+    max-width: 85%;
+    padding-bottom: 20px;
+}
+
+/* .brand-description done */
+
+.features-section {
+    margin: 50px 160px;
+    display: flex;
+    gap: 50px;
+}
+
+.features-content {
+    /* display: inline-block; */
+    align-content: center;
+    /* text-align: center; */
+}
+
+.features-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.features-title span {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.features-title b {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FF900E;
+}
+
+.features-image img {
+    width: 100%;
+}
+
+.button-2 {
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.features-image {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.features-description {
+    line-height: 20px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 10px;
+}
+
+/* .features-description done  */
+
+/* .details-features-container start  */
+
+.details-features-section {
+    padding: 0px 100px;
+}
+
+.left-subtitle {
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-right: 20px;
+}
+
+.left-item-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.left-title {
+    border-left: 5px solid #FF900E;
+    font-weight: bold;
+    font-size: 45px;
+    color: #131313;
+    margin: 20px 10px;
+    padding-left: 20px;
+}
+
+.details-features-container {
+    display: flex;
+    border-radius: 14px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.left-subtitle-2 {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.container-left-body {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.container-right img {
+    max-width: 550px;
+}
+
+.container-left {
+    margin-bottom: 20px;
+}
+
+.container-right {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.left-item {
+    background-color: #e9e5e510;
+    padding: 20px;
+    border-radius: 8px;
+    width: 480px;
+    box-shadow: 0px 4px 54px 0px #42424221;
+
+}
+
+.button-3 {
+    position: absolute;
+    bottom: 10px;
+    left: -45px;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+    height: 130px;
+    width: 250px;
+}
+
+.button-3 b {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.button-3 h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .details-features-container done  */
+
+/* .facts-container start  */
+
+
+
+.facts-container {
+    margin: 0px 100px;
+}
+
+.oursuccess {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facts-heading {
+    padding: 20px 0px;
+    font-size: 45px;
+    color: #131313;
+    font-weight: bold;
+}
+
+.facts-article {
+    padding-right: 650px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.facts-item {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.item-head {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.item-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+
+
+/* .facts-container done  */
+
+
+/* .sponspors-container start  */
+
+.sponspors-container {
+    margin: 0px 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sponspors-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+
+.sponspors-description {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #727272;
+    padding: 0px 330px;
+    margin: 20px 0px;
+}
+
+.logo-sponspors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-sponspors img {
+    filter: grayscale(100%);
+}
+
+/* .sponspors-container done  */
+
+
+/* .footer-container start  */
+
+.footer-container {
+    padding: 20px 0px;
+    max-width: 1440px;
+    margin: 0px 100px;
+    background-color: #FFF4E7;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer-container h1 {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* .footer-container done  */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .navbar-title {
+        font-size: 20px;
+    }
+
+    .menu-container {
+        gap: 20px;
+    }
+
+    .navbar-container {
+        gap: 50px;
+    }
+
+    .menu-container li,
+    a {
+        font-size: 15px;
+    }
+
+    .brand-title-1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 0px 200px;
+    }
+
+    .brand-title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .brand-description {
+        padding: 0px 100px;
+        padding-bottom: 20px;
+    }
+
+    .brand-image img {
+        padding-bottom: 15px;
+    }
+
+    .button {
+        padding: 17px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .features-section {
+        gap: 40px;
+        margin: 20px 70px;
+    }
+
+    .features-title {
+        font-size: 35px;
+    }
+
+    .features-title span {
+        font-size: 35px;
+    }
+
+    .features-title b {
+        font-size: 35px;
+    }
+
+    .features-image img {
+        gap: 8px;
+    }
+
+    .features-description {
+        margin-top: 30px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .button-2 {
+        padding: 15px;
+        font-size: 17px;
+        margin-bottom: 50px;
+        margin-top: 35px;
+    }
+
+    .features-image {
+        gap: 10px;
+        height: fit-content;
+        grid-template-columns: repeat(1, 150px);
+    }
+
+    .details-features-section {
+        padding: 0px 60px;
+    }
+
+    .left-subtitle {
+        padding-bottom: 15px;
+        line-height: 18px;
+        margin-right: 20px;
+    }
+
+    .left-item-name {
+        font-size: 18px;
+    }
+
+    .left-title {
+        border-left: 3px solid #FF900E;
+        font-size: 27px;
+        margin: 16px 10px;
+        padding-left: 10px;
+    }
+
+    .details-features-container {
+        margin-top: 10px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .left-subtitle-2 {
+        padding-top: 10px;
+        line-height: 18px;
+    }
+
+    .container-left-body {
+        gap: 15px;
+    }
+
+    .container-right img {
+        min-width: 400px;
+        margin: 0 auto;
+    }
+
+    .container-left {
+        margin-bottom: 10px;
+    }
+
+    .container-right {
+        position: relative;
+    }
+
+    .left-item {
+        padding: 20px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .button-3 {
+        position: absolute;
+        bottom: 25px;
+        left: 15px;
+        height: 80px;
+        width: 180px;
+    }
+
+    .button-3 b {
+        font-size: 30px;
+    }
+
+    .button-3 h1 {
+        font-size: 15px;
+    }
+
+    .facts-container {
+        margin: 0px 80px;
+    }
+
+    .oursuccess {
+        padding: 40px 0px;
+        gap: 20px;
+    }
+
+    .facts-heading {
+        padding: 15px 0px;
+        font-size: 30px;
+    }
+
+    .facts-article {
+        line-height: 24px;
+        padding-right: 0;
+    }
+
+    .facts-item {
+        padding: 15px;
+    }
+
+    .item-head {
+        font-size: 25px;
+    }
+
+    .item-name {
+        font-size: 17px;
+    }
+
+    .sponspors-container {
+        margin: 0px 80px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .sponspors-title {
+        font-size: 30px;
+    }
+
+    .sponspors-description {
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+    .logo-sponspors {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .logo-sponspors img {
+        filter: grayscale(100%);
+        max-width: 50%;
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        padding: 20px 0px;
+        max-width: 1440px;
+        margin: 0px 80px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+.features-section {
+    margin: 20px 80px;
+    display: flex;flex-direction: column;
+    gap: 50px;
+}
+.features-content{
+    margin: 0 auto;
+}
+.features-image {
+        margin: 0 auto;
+        gap: 10px;
+        height: fit-content;display: grid;
+        grid-template-columns: repeat(2, 250px);
+    
+    }
+
+.logo-sponspors img {
+        filter: grayscale(100%);
+        max-width: 20%;
+        margin-top: 20px;
+    }
+    
+    .container-right img{
+        margin-left: 40px;
+    }
+    
+    .container-right {
+        position: relative;
+    }
+
+    .button-3 {
+        position: absolute;
+        bottom: 25px;
+        left: 50px;
+        height: 80px;
+        width: 180px;
+    }
+}
